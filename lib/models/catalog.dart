@@ -10,5 +10,11 @@ class Item {
 }
 
 final products = [
-  Item(),
+  Item(
+      id: "001",
+      name: "Redmi 9 Prime",
+      desc: "New generation smartphone with android 10",
+      price: 11000,
+      color: "#33505a",
+      image: "https://bit.ly/3rJS8nu"),
 ];
