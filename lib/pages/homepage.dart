@@ -1,4 +1,6 @@
 import "package:flutter/material.dart";
+import 'package:flutter/services.dart';
+import 'dart:convert';
 import 'package:flutter_30_days/models/catalog.dart';
 import 'package:flutter_30_days/widgets/drawer.dart';
 import 'package:flutter_30_days/widgets/item_widget.dart';
@@ -20,7 +22,12 @@ class _HomePageState extends State<HomePage> {
     loadData();
   }
 
-  loadData() {}
+  loadData() async {
+    var catalogJson = await rootBundle.loadString("assets/files/catalog.json");
+    var decodedData = jsonDecode(catalogJson);
+    var productsData = decodedData["products"];
+    print(productsData);
+  }
 
   @override
   Widget build(BuildContext context) {
