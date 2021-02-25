@@ -1,7 +1,7 @@
 # flutter_30_days
 
 I am building a catalog app for electronic gadgets. 
-The price and small description of the product are shown in the app.
+The price and small description of the products are shown in the app.
 You will be able to buy the product from the app in future when I enable this feature.
 
 
