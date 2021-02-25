@@ -18,7 +18,6 @@ For now just look at this screen shots that I have taken while building the app.
 ![picture alt](https://github.com/Supriyo-455/30-days-of-flutter/blob/master/Screenshot%20from%202021-02-25%2012-22-37.png "Short view of the game")
 
 ### Home page drawer
-https://github.com/Supriyo-455/30-days-of-flutter/blob/master/Screenshot%20from%202021-02-25%2012-22-30.png
 ![picture alt](https://github.com/Supriyo-455/30-days-of-flutter/blob/master/Screenshot%20from%202021-02-25%2012-22-30.png "Short view of the game")
 
 
